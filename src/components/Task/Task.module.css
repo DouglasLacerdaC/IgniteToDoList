@@ -1,0 +1,75 @@
+.task {
+    display: flex;
+    align-items: flex-start;
+    gap: 0.75rem;
+    padding: 1rem;
+    background-color: var(--gray-500);
+    border-radius: 8px;
+    border: 1px solid var(--gray-400);
+}
+
+.checkbox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 1.5rem;
+    height: 1.5rem;
+    border-radius: 50%;
+    border: 2px solid var(--blue-300);
+    cursor: pointer;
+    transition: 0.1s;
+    background-color: transparent;
+}
+
+.checkbox svg {
+    color: var(--gray-100);
+    opacity: 0;
+}
+
+.checkbox:hover {
+    background-color: var(--blue-500);
+}
+
+.checkbox.checked {
+    background-color: var(--purple-500);
+    border-color: transparent;
+}
+
+.checkbox.checked svg {
+    opacity: 1;
+}
+
+.checkbox.checked:hover {
+    background-color: var(--purple-300);
+}
+
+.task p {
+    flex: 1;
+    font-size: var(--font-md);
+    color: var(--gray-100);
+    line-height: 1.4;
+}
+
+.task p.completed {
+    color: var(--gray-300);
+    text-decoration: line-through;
+}
+
+.task .trash {
+    width: 1.5rem;
+    height: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+    border-radius: 4px;
+    color: var(--gray-300);
+    transition: background-color 0.1s, color 0.1s;
+}
+
+.task .trash:hover {
+    color: var(--red-500);
+    background-color: var(--gray-400);
+}

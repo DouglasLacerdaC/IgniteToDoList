@@ -1,0 +1,42 @@
+.info {
+    display: flex;
+    justify-content: space-between;
+}
+
+.info .created {
+    display: flex;
+    gap: 0.5rem;
+}
+
+.info .created strong {
+    font-size: var(--font-md);
+    color: var(--blue-300);
+}
+
+.info .created span {
+    font-size: var(--font-sm);
+    background-color: var(--gray-400);
+    color: var(--gray-100);
+    font-weight: bold;
+    border-radius: 1rem;
+    padding: 0.125rem 0.5rem;
+}
+
+.info .done {
+    display: flex;
+    gap: 0.5rem;
+}
+
+.info .done strong {
+    font-size: var(--font-md);
+    color: var(--purple-300);
+}
+
+.info .done span {
+    font-size: var(--font-sm);
+    background-color: var(--gray-400);
+    color: var(--gray-100);
+    font-weight: bold;
+    border-radius: 1rem;
+    padding: 0.125rem 0.5rem;
+}
