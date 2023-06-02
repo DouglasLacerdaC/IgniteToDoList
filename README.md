@@ -1,7 +1,7 @@
 # ToDo List
 Minha resolução ao primeiro desafio da trilha ReactJS do Ignite da empresa @Rocketseat. O projeto tem como objetivo botar em pratica os conceitos inicias de React com um projeto de controle de tarefas estilo to-do list. :rocket:<br><br>
 
-![Screenshot](./public/preview.png)
+![Screenshot](./public/cover.png)
 
 ## 🚀 Tecnologias
 - ✔️ ReactJS - Biblioteca Javascript
